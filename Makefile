@@ -45,7 +45,7 @@ $(OBJ_FOLDER):
 	mkdir $(OBJ_FOLDER)program
 
 commit:
-	git add $(SRC_FOLDER) $(HDR_FOLDER) Makefile
+	git add $(SRC_FOLDER) $(HDR_FOLDER) Makefile *.duck README.md .gitignore
 	git commit -m 'makefile_commit'
 	git push
 
